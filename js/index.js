@@ -1,4 +1,3 @@
-#JS is the top image, the one you see first 
 var bridge = document.getElementById("bridge"),
 bridgeCanvas = bridge.getContext('2d'),
 brushRadius = (bridge.width / 100) * 5,
