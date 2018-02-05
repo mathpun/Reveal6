@@ -1,3 +1,4 @@
+#JS is the top image, the one you see first 
 var bridge = document.getElementById("bridge"),
 bridgeCanvas = bridge.getContext('2d'),
 brushRadius = (bridge.width / 100) * 5,
@@ -8,8 +9,8 @@ if (brushRadius < 50) { brushRadius = 50 }
 img.onload = function(){  
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
-img.loc = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/';
-img.filename = 'calgary-bridge-2013.jpg';
+img.loc = 'https://s3.amazonaws.com/lettersdrew/Base+letters/';
+img.filename = 'D2.jpg';
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
 	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
