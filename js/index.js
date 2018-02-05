@@ -10,7 +10,7 @@ img.onload = function(){
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
 img.loc = 'https://s3.amazonaws.com/lettersdrew/Base+letters/';
-img.filename = 'D2.png';
+img.filename = 'D1.png';
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
 	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
