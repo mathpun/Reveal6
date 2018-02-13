@@ -1,15 +1,15 @@
 var bridge = document.getElementById("bridge"),
 bridgeCanvas = bridge.getContext('2d'),
-brushRadius = (bridge.width / 100) * 5,
+brushRadius = (bridge.width / 100) * 1,
 img = new Image();
 
-if (brushRadius < 50) { brushRadius = 50 }
+if (brushRadius < 10) { brushRadius = 10 }
 
 img.onload = function(){  
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
 img.loc = 'https://s3.amazonaws.com/lettersdrew/Base+letters/';
-img.filename = 'A.jpg';
+img.filename = 'Blank.jpg';
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
 	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
