@@ -3,7 +3,7 @@ bridgeCanvas = bridge.getContext('2d'),
 brushRadius = (bridge.width / 100) * 1,
 img = new Image();
 
-if (brushRadius < 10) { brushRadius = 10 }
+if (brushRadius < 20) { brushRadius = 20 }
 
 img.onload = function(){  
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
