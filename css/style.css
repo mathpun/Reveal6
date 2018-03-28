@@ -6,8 +6,8 @@ body {
 #bridge {
   display: block;
   margin: 0 auto;
-  background-image: url("https://s3.amazonaws.com/lettersdrew/Base+letters/Cond1_A.png");
-  background-image: -webkit-image-set(url("https://s3.amazonaws.com/lettersdrew/Base+letters/Cond1_A.png") 1x, url("https://s3.amazonaws.com/lettersdrew/Base+letters/Cond1_A.png") 2x);
+  background-image: url("https://s3.amazonaws.com/lettersdrew/Base+letters/6_AStro26.png");
+  background-image: -webkit-image-set(url("https://s3.amazonaws.com/lettersdrew/Base+letters/6_AStro26.png") 1x, url("https://s3.amazonaws.com/lettersdrew/Base+letters/6_AStro26.png") 2x);
   background-size: cover;
   width: 100%;
   max-width: 750px;
